@@ -1,4 +1,4 @@
-import d3 from "d3";
+const d3 = require("d3");
 
 // Maps raw data in the form of [ time: metric ] and converts it to x and y values
 const convertDataToLineData = data => {

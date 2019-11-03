@@ -1,5 +1,5 @@
 import React from "react";
-import LineChart from "../LineChart";
+import LineChart from "./LineChart";
 
 export default function ChartContainer() {
   var height = 200;

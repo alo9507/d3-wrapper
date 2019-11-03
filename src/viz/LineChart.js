@@ -1,8 +1,8 @@
 import React from "react";
 import Axis from "./Axis";
 import Line from "./Line";
-import ChartTitle from "./ChartTitle";
 import Tooltip from "./Tooltip";
+import styled from "@emotion/styled";
 
 const chartUtils = require("./chartUtils");
 
@@ -190,3 +190,7 @@ export default props => {
     </>
   );
 };
+
+const ChartTitle = styled.h2`
+  font-weight: bold;
+`;
